@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Weapons Expanded - Heavy Weapons</name>
+	<author>Oskar Potocki, Taranchuk</author>
+	<supportedVersions><li>1.2</li></supportedVersions>
+	<packageId>VanillaExpanded.VWEHW</packageId>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter><li>VanillaExpanded.VWE</li></loadAfter>
+	<incompatibleWith>
+	</incompatibleWith>
+	<description>tbd
+	</description>
+</ModMetaData>
