@@ -13,7 +13,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>Machining</researchPrerequisite>
+			<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -36,10 +36,13 @@
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<Steel>150</Steel>
 			<Plasteel>20</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<verbs>
 			<li>
@@ -77,8 +80,11 @@
 		</tools>
 		<modExtensions>
 			<li Class="HeavyWeapons.HeavyWeapon">
-				<weaponHitPointsDeductionOnShot>20</weaponHitPointsDeductionOnShot>
+				<weaponHitPointsDeductionOnShot>1</weaponHitPointsDeductionOnShot>
 				<isHeavy>true</isHeavy>
+				<supportedArmors>
+					<li>VWE_Apparel_Exoframe</li>
+				</supportedArmors>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -95,7 +101,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>Machining</researchPrerequisite>
+			<researchPrerequisite>Mortars</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -114,9 +120,13 @@
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<Steel>80</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>60</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+	  <Shell_HighExplosive>5</Shell_HighExplosive>
 		</costList>
 		<verbs>
 			<li>
@@ -161,6 +171,9 @@
 			<li Class="HeavyWeapons.HeavyWeapon">
 				<weaponHitPointsDeductionOnShot>20</weaponHitPointsDeductionOnShot>
 				<isHeavy>true</isHeavy>
+				<supportedArmors>
+					<li>VWE_Apparel_Exoframe</li>
+				</supportedArmors>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -177,7 +190,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>Machining</researchPrerequisite>
+			<researchPrerequisite>BiofuelRefining</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -195,15 +208,18 @@
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
 		<comps>
 			<li>
 				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 			</li>
 		</comps>
 		<costList>
-			<Steel>150</Steel>
-			<Plasteel>20</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+	  <Chemfuel>80</Chemfuel>
 		</costList>
 		<verbs>
 			<li>
@@ -240,8 +256,11 @@
 		</tools>
 		<modExtensions>
 			<li Class="HeavyWeapons.HeavyWeapon">
-				<weaponHitPointsDeductionOnShot>20</weaponHitPointsDeductionOnShot>
+				<weaponHitPointsDeductionOnShot>10</weaponHitPointsDeductionOnShot>
 				<isHeavy>true</isHeavy>
+				<supportedArmors>
+					<li>VWE_Apparel_Exoframe</li>
+				</supportedArmors>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -287,7 +306,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>Machining</researchPrerequisite>
+			<researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -306,10 +325,13 @@
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<Steel>150</Steel>
-			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<Steel>160</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>12</ComponentIndustrial>
 		</costList>
 		<verbs>
 			<li>
@@ -321,7 +343,7 @@
 				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
 				<range>35.9</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<burstShotCount>8</burstShotCount>
+				<burstShotCount>18</burstShotCount>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<onlyManualCast>true</onlyManualCast>
@@ -353,8 +375,11 @@
 		</tools>
 		<modExtensions>
 			<li Class="HeavyWeapons.HeavyWeapon">
-				<weaponHitPointsDeductionOnShot>1</weaponHitPointsDeductionOnShot>
+				<weaponHitPointsDeductionOnShot>5</weaponHitPointsDeductionOnShot>
 				<isHeavy>true</isHeavy>
+				<supportedArmors>
+					<li>VWE_Apparel_Exoframe</li>
+				</supportedArmors>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -371,7 +396,7 @@
 		<projectile>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>12</damageAmountBase>
-			<explosionRadius>1.9</explosionRadius>
+			<explosionRadius>2.9</explosionRadius>
 			<speed>50</speed>
 		</projectile>
 		<comps>
@@ -394,7 +419,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>Machining</researchPrerequisite>
+			<researchPrerequisite>SniperTurret</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -408,20 +433,23 @@
 			</li>
 		</comps>
 		<statBases>
-			<AccuracyTouch>0.20</AccuracyTouch>
-			<AccuracyShort>0.40</AccuracyShort>
-			<AccuracyMedium>0.80</AccuracyMedium>
-			<AccuracyLong>0.95</AccuracyLong>
+			<AccuracyTouch>0.30</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.98</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>40</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<Steel>150</Steel>
-			<Plasteel>30</Plasteel>
-			<Uranium>60</Uranium>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<Steel>100</Steel>
+			<Plasteel>15</Plasteel>
+			<Uranium>40</Uranium>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<verbs>
 			<li>
@@ -430,7 +458,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>3</warmupTime>
 				<minRange>9.9</minRange>
-				<range>45.9</range>
+				<range>55.9</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Shot_TurretSniper</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -458,10 +486,10 @@
 		</tools>
 		<modExtensions>
 			<li Class="HeavyWeapons.HeavyWeapon">
-				<weaponHitPointsDeductionOnShot>20</weaponHitPointsDeductionOnShot>
+				<weaponHitPointsDeductionOnShot>10</weaponHitPointsDeductionOnShot>
 				<isHeavy>true</isHeavy>
 				<supportedArmors>
-					<li>ANY DEF NAME</li>
+					<li>VWE_Apparel_Exoframe</li>
 				</supportedArmors>
 			</li>
 		</modExtensions>
