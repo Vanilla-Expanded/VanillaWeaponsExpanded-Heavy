@@ -133,7 +133,7 @@
 				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
 				<defaultProjectile>Bullet_Shell_HighExplosive</defaultProjectile>
 				<hasStandardCommand>true</hasStandardCommand>
-				<forcedMissRadius>4</forcedMissRadius>
+				<forcedMissRadius>3</forcedMissRadius>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>3.5</warmupTime>
 				<minRange>9.9</minRange>
@@ -182,7 +182,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>VWE_Gun_HeavyFlamer</defName>
 		<label>heavy flamer</label>
-		<description>A powerful, military-grade flamer based on mechanoid inferno spewers. It can cover the entire area in from of the user in flames.\n\nBeing an extremely heavy weapon, this gun requires a power armor to be effectively used.\n\nThis weapon has limited number of uses.</description>
+		<description>A powerful, military-grade flamer based on mechanoid inferno spewers. It can cover the entire area in front of the user in flames.\n\nBeing an extremely heavy weapon, this gun requires a power armor to be effectively used.\n\nThis weapon has limited number of uses.</description>
 		<graphicData>
 			<texPath>Things/WeaponRanged/HeavyFlamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -225,7 +225,7 @@
 			<li>
 				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>VFE_Bullet_InfernoSpewer</defaultProjectile>
+				<defaultProjectile>VWE_Bullet_HeavyFlamer</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>1.25</warmupTime>
 				<range>19.9</range>

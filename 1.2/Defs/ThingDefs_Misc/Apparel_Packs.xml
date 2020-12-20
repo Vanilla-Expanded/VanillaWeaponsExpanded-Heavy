@@ -4,13 +4,13 @@
   <ThingDef ParentName="ApparelBase">
     <defName>VWE_Apparel_Exoframe</defName>
     <label>exoskeleton frame</label>
-    <description>A wearable frame, powered by a system of hydraulics, electric motors, levers and pneumatics. designed to permit quick movement. Whilst it does not provide any protection, it allows the user to walk faster, lift heavier objects and maintain balance more easily.</description>
+    <description>A wearable frame, powered by a system of hydraulics, electric motors, levers and pneumatics, designed to permit quick movement. Whilst it does not provide any protection, it allows the user to walk faster, lift heavier objects and maintain balance more easily.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
       <researchPrerequisite>Fabrication</researchPrerequisite>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>FabricationBench</li>
       </recipeUsers>
       <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -22,9 +22,10 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-      <Plasteel>15</Plasteel>
+      <Plasteel>25</Plasteel>
 	  <Steel>35</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
+	  <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <graphicData>
       <texPath>Things/Apparel/Exoframe/ExoFrame</texPath>
@@ -38,7 +39,7 @@
       <EquipDelay>12</EquipDelay>
     </statBases>
 		<equippedStatOffsets>
-			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 			<MoveSpeed>0.2</MoveSpeed>
 			<CarryingCapacity>15</CarryingCapacity>
 		</equippedStatOffsets>
