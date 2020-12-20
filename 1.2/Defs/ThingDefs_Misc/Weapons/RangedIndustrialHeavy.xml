@@ -133,7 +133,7 @@
 				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
 				<defaultProjectile>Bullet_Shell_HighExplosive</defaultProjectile>
 				<hasStandardCommand>true</hasStandardCommand>
-				<forcedMissRadius>3</forcedMissRadius>
+				<forcedMissRadius>3.9</forcedMissRadius>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>3.5</warmupTime>
 				<minRange>9.9</minRange>
@@ -342,8 +342,9 @@
 				<warmupTime>4.5</warmupTime>
 				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
 				<range>35.9</range>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<burstShotCount>18</burstShotCount>
+				<minRange>6.9</minRange>
+				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<onlyManualCast>true</onlyManualCast>
