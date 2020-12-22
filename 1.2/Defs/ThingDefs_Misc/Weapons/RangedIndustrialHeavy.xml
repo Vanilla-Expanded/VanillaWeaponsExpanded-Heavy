@@ -35,6 +35,7 @@
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
+      <WorkToMake>14000</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
@@ -119,6 +120,7 @@
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
+      <WorkToMake>14000</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
@@ -207,6 +209,7 @@
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
+      <WorkToMake>14000</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
@@ -324,6 +327,7 @@
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
+      <WorkToMake>14000</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
@@ -442,6 +446,7 @@
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>40</Mass>
 			<Flammability>0</Flammability>
+      <WorkToMake>14000</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
