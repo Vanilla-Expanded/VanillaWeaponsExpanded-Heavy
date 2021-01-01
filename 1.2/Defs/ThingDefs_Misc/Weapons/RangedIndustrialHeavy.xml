@@ -23,7 +23,7 @@
 				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 			</li>
 		</comps>
-		<weaponTags>
+		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
 		<statBases>
@@ -112,7 +112,7 @@
 				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 			</li>
 		</comps>
-		<weaponTags>
+		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
 		<statBases>
@@ -197,7 +197,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<weaponTags>
+		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
 		<statBases>
@@ -319,7 +319,7 @@
 				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 			</li>
 		</comps>
-		<weaponTags>
+		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
 		<statBases>
@@ -429,7 +429,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<weaponTags>
+		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
 		<comps>
