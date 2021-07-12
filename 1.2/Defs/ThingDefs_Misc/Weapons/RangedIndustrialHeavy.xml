@@ -236,6 +236,9 @@
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 			</li>
 		</verbs>
 		<tools>
@@ -280,7 +283,7 @@
 		<projectile>
 			<damageDef>Flame</damageDef>
 			<speed>45</speed>
-			<damageAmountBase>3</damageAmountBase>
+			<damageAmountBase>12</damageAmountBase>
 		</projectile>
 
 		<drawOffscreen>true</drawOffscreen>
