@@ -86,6 +86,10 @@
 				<supportedArmors>
 					<li>VWE_Apparel_Exoframe</li>
 				</supportedArmors>
+				<supportedTraits>
+					<li>Tough</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VWE.CannotEquipHeavy</disableOptionLabelKey>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -176,6 +180,10 @@
 				<supportedArmors>
 					<li>VWE_Apparel_Exoframe</li>
 				</supportedArmors>
+				<supportedTraits>
+					<li>Tough</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VWE.CannotEquipHeavy</disableOptionLabelKey>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -267,6 +275,10 @@
 				<supportedArmors>
 					<li>VWE_Apparel_Exoframe</li>
 				</supportedArmors>
+				<supportedTraits>
+					<li>Tough</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VWE.CannotEquipHeavy</disableOptionLabelKey>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -388,6 +400,10 @@
 				<supportedArmors>
 					<li>VWE_Apparel_Exoframe</li>
 				</supportedArmors>
+				<supportedTraits>
+					<li>Tough</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VWE.CannotEquipHeavy</disableOptionLabelKey>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -500,6 +516,10 @@
 				<supportedArmors>
 					<li>VWE_Apparel_Exoframe</li>
 				</supportedArmors>
+				<supportedTraits>
+					<li>Tough</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VWE.CannotEquipHeavy</disableOptionLabelKey>
 			</li>
 		</modExtensions>
 	</ThingDef>
