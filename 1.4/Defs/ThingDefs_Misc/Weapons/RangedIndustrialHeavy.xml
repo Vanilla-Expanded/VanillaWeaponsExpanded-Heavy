@@ -18,11 +18,6 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
-			<li>
-				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-			</li>
-		</comps>
 		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
@@ -111,11 +106,6 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
-			<li>
-				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-			</li>
-		</comps>
 		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
@@ -222,11 +212,6 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
-		<comps>
-			<li>
-				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-			</li>
-		</comps>
 		<costList>
       <Steel>80</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
@@ -329,11 +314,6 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
-			<li>
-				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-			</li>
-		</comps>
 		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
@@ -451,11 +431,6 @@
 		<weaponTags Inherit='False'>
 			<li>HeavyGun</li>
 		</weaponTags>
-		<comps>
-			<li>
-				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-			</li>
-		</comps>
 		<statBases>
 			<AccuracyTouch>0.30</AccuracyTouch>
 			<AccuracyShort>0.60</AccuracyShort>
