@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[defName="Mercenary_Heavy"]/weaponTags</xpath>
+		<value>
+			<li>HeavyGun</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[defName="Mercenary_Heavy"]</xpath>
+		<value>
+			<apparelRequired>
+				<li>VWE_Apparel_Exoframe</li>
+			</apparelRequired>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[defName="Mercenary_Heavy"]/apparelMoney</xpath>
+		<value>
+			<apparelMoney>900~1100</apparelMoney>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[defName="Mercenary_Heavy"]/weaponMoney</xpath>
+		<value>
+			<weaponMoney>500~1200</weaponMoney>
+		</value>
+	</Operation>
+</Patch>
