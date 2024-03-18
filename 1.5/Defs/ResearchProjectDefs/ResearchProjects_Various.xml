@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>VWE_Quickdraw</defName>
+		<label>quick draw</label>
+		<description>Create lightweight, fast to draw and fire weapons.</description>
+		<baseCost>2500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>1.95</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
