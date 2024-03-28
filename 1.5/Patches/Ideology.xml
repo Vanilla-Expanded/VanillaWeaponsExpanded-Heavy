@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- RangedHeavy-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle" or defName="VWE_Gun_SwarmMissileLauncher" or defName="VWE_Gun_HeavyFlamer" or defName="VWE_Gun_HandheldMortar" or defName="VWE_Gun_Autocannon"]</xpath>
+          <value>
+            <weaponClasses>
+              <li>RangedHeavy</li>
+            </weaponClasses>
+          </value>
+        </li>
+        <!-- ShortShots < 19.9 range -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/weaponClasses</xpath>
+          <value>
+            <li>ShortShots</li>
+          </value>
+        </li>
+        <!-- LongShots > 35 range -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle" or defName="VWE_Gun_SwarmMissileLauncher"]/weaponClasses</xpath>
+          <value>
+            <li>LongShots</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
